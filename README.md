@@ -20,10 +20,3 @@ The visualizations created in this project allow for an intuitive and interactiv
 
 ## Conclusion
 This project demonstrates how machine learning and advanced data visualization techniques can enhance the interpretation of extensive climate modeling data, providing valuable insights for climate prediction and research.
-
-## Usage
-To explore the visualizations and sensitivity analysis results, follow the instructions below:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/climate-prediction-visualization.git
