@@ -1,4 +1,4 @@
-# Climate Prediction Visualization Project
+# Measure of parameter uncertainty using High Performance computing and Machine Learning
 
 ## Overview
 This project leverages the power of supercomputing to handle and analyze extensive climate data produced by climate modeling at the National Center for Atmospheric Research (NCAR). The model used for this data is part of the Intergovernmental Panel on Climate Change (IPCC) climate prediction efforts.
