@@ -11,4 +11,4 @@ The main goal of this project to use the principle of parameter uncertainty in q
 ## Methodology
 1. **Data Handling**: Utilized supercomputing resources to process and manage the large volume of NETCDF climate data. The datasets will be read on tiles from 40 clusters.
 2. **Gaussian Regression**: The dataset will be used to train a GPR based machine learning model. When the model has sufficient high accuracy, which is greater than 70%, then FAST test can be integrated.
-3. **Sensitivity Analysis**: Apply the FAST and measure the sensitivity of the model outputs to each of 32 variables. Lets say if you are interested in leaf nitrogen, then you will get a barplot plotted with 32 variables.
+3. **Sensitivity Analysis**: Apply the FAST and measure the sensitivity of the model outputs to each of 32 parameters. Lets say if you are interested in leaf nitrogen, then you will get a barplot plotted with 32 parameters and their VIF(variable importance factor). For example: if precipiation influence leaf nitrogen the highest, precipitation receives highest bar still accounting for all other parameters involved. 
