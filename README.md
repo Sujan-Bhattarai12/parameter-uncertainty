@@ -444,14 +444,8 @@ This project showcases expertise in:
 Master of Science in Environmental Science & Management  
 Bren School, UC Santa Barbara
 
-**Contact**:
-- Email: [your.email@example.com]
-- LinkedIn: [linkedin.com/in/yourprofile]
-- GitHub: [github.com/yourusername]
-
 **Advisors**:
-- Dr. [Advisor Name], Bren School of Environmental Science & Management
-- Dr. [Co-Advisor Name], Department of Atmospheric Science
+- Dr. [Daniel Kennedy], Bren School of Environmental Science & Management
 
 ---
 
@@ -465,7 +459,7 @@ If you use this code in your research, please cite:
 ```bibtex
 @mastersthesis{yourname2024climate,
   title={Uncertainty Quantification in Climate Models using Gaussian Process Emulation},
-  author={Your Name},
+  author={Sujan Bhattarai},
   year={2024},
   school={UC Santa Barbara},
   type={Master's Thesis}
