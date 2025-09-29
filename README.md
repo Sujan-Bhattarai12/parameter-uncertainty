@@ -191,19 +191,16 @@ This will:
 ## Sample Outputs
 
 ### 1. Sensitivity Analysis
-![Sensitivity Analysis](figures/sensitivity_NBP.png)
 *Fourier Amplitude Sensitivity Test showing parameter rankings. Longer bars indicate greater influence on Net Biome Production. Color-coded by process category.*
 
 **Interpretation**: This analysis reveals that photosynthesis parameters (red) dominate model uncertainty, followed by hydraulic stress parameters (blue). This guides where to focus model improvement efforts and field measurements.
 
 ### 2. Emulator Performance
-![Cross-Validation](figures/cross_validation_NBP.png)
 *Gaussian Process emulator predictions vs. actual model outputs. Points close to the diagonal line indicate accurate predictions. Error bars show prediction uncertainty.*
 
 **Interpretation**: The tight clustering around the 1:1 line with R² = 0.947 demonstrates the emulator accurately captures model behavior across the parameter space, enabling rapid uncertainty propagation.
 
 ### 3. Parameter Response Curves
-![Response Curve](figures/response_KRMAX_NBP.png)
 *Model response to varying KRMAX (maximum hydraulic conductivity) while holding other parameters at median values. Shaded region shows 95% confidence interval.*
 
 **Interpretation**: NBP shows a non-linear response to KRMAX with increasing uncertainty at extreme values, indicating threshold behavior in drought stress responses.
